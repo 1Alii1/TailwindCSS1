@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sports Zone</title>
-  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" href="fifa-official-logo-white-and-blue-symbol-design-abstract-illustration-free-vector-removebg-preview.png" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     @keyframes bounceIn {
@@ -24,11 +24,12 @@
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
+
   <!-- Header -->
   <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
     <!-- Logo -->
     <div class="flex items-center gap-2">
-      <img src="images/logo.png" alt="Logo" class="h-10 w-10" />
+      <img src="fifa-official-logo-white-and-blue-symbol-design-abstract-illustration-free-vector-removebg-preview.png" alt="Logo" class="h-10 w-10" />
       <span class="text-xl font-bold">Sports Zone</span>
     </div>
 
@@ -43,5 +44,51 @@
     <!-- Search Button -->
     <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Search</button>
   </header>
+  <!-- Main Body -->
+  <main class="px-6 py-10 space-y-8">
+    <!-- Animated Heading -->
+    <h1 class="text-4xl font-bold text-center text-blue-700 animate-bounce-in">Welcome to Sports Zone</h1>
+
+    <!-- Paragraphs -->
+    <div class="space-y-4 text-lg leading-relaxed">
+      <p>At Sports Zone, we bring you the latest updates and highlights from all major sports across the world.</p>
+      <p>Whether it's football, cricket, basketball, or tennis – we've got you covered with top stories and analysis.</p>
+      <p>Stay connected with your favorite teams and players, and never miss an important match again!</p>
+    </div>
+    <!--1st Section-->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+      <img src="images (1).jpeg" alt="Sport 1" class="rounded shadow-md hover:scale-105 transition-transform duration-300 animate-bounce-in" />
+      <img src="images (2).jpeg" alt="Sport 2" class="rounded shadow-md hover:scale-105 transition-transform duration-300 animate-bounce-in" />
+      <img src="images (3).jpeg" alt="Sport 3" class="rounded shadow-md hover:scale-105 transition-transform duration-300 animate-bounce-in" />
+      </div>
+      <!--2nd Section-->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+      <img src="images (4).jpeg" alt="Sport 4" class="rounded shadow-md hover:scale-105 transition-transform duration-300 animate-bounce-in" />
+      <img src="images.jpeg" alt="Sport 5" class="rounded shadow-md hover:scale-105 transition-transform duration-300 animate-bounce-in" />
+      <img src="images.png  " alt="Sport 6" class="rounded shadow-md hover:scale-105 transition-transform duration-300 animate-bounce-in" />
+      </div>
+      <!-- Form Section -->
+    <!-- Comment: Client information form -->
+    <div class="bg-white p-6 rounded shadow-lg mt-10 max-w-xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4 text-center">Contact Us</h2>
+      <form action="submission.html" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full border p-2 rounded" />
+        <input type="email" name="email" placeholder="Your Email" required class="w-full border p-2 rounded" />
+        <input type="text" name="team" placeholder="Favorite Team" class="w-full border p-2 rounded" />
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Submit</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white mt-10 py-6">
+    <div class="flex flex-col md:flex-row justify-between items-center px-6">
+      <p>&copy; 2025 Sports Zone. All rights reserved.</p>
+      <div class="flex gap-4 mt-4 md:mt-0">
+        <a href="#" class="hover:text-blue-400">Home</a>
+        <a href="#" class="hover:text-blue-400">Teams</a>
+        <a href="#" class="hover:text-blue-400">Events</a>
+        <a href="#" class="hover:text-blue-400">Contact</a>
+      </div>
 </body>
 </html>

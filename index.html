@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Zone</title>
+  <link rel="icon" href="favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes bounceIn {
+      0% {
+        transform: scale(0.9);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .animate-bounce-in {
+      animation: bounceIn 1s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
+    <!-- Logo -->
+    <div class="flex items-center gap-2">
+      <img src="images/logo.png" alt="Logo" class="h-10 w-10" />
+      <span class="text-xl font-bold">Sports Zone</span>
+    </div>
+
+    <!-- Nav Menu -->
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#" class="hover:text-blue-600">Home</a>
+      <a href="#" class="hover:text-blue-600">Teams</a>
+      <a href="#" class="hover:text-blue-600">Events</a>
+      <a href="#" class="hover:text-blue-600">Contact</a>
+    </nav>
+
+    <!-- Search Button -->
+    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Search</button>
+  </header>
+</body>
+</html>
